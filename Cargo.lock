@@ -38,6 +38,7 @@ dependencies = [
 [[package]]
 name = "bindings"
 version = "0.1.0"
+source = "git+https://github.com/Caudiciform-Studios/client_bindings.git#10d68bd383f1d9ff31aa5176f3e2cecc61237148"
 dependencies = [
  "anyhow",
  "serde",
@@ -53,6 +54,7 @@ checksum = "b048fb63fd8b5923fc5aa7b340d8e156aec7ec02f0c78fa8a6ddc2613f6f71de"
 [[package]]
 name = "client_utils"
 version = "0.1.0"
+source = "git+https://github.com/Caudiciform-Studios/client_utils.git#0838d67d6696e3ae0715a4e0646fd47328015081"
 dependencies = [
  "anyhow",
  "bincode",
@@ -66,6 +68,7 @@ dependencies = [
 [[package]]
 name = "client_utils_derive"
 version = "0.1.0"
+source = "git+https://github.com/Caudiciform-Studios/client_utils.git#0838d67d6696e3ae0715a4e0646fd47328015081"
 dependencies = [
  "quote",
  "syn",

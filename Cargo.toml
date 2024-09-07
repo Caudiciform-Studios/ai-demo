@@ -7,8 +7,8 @@ edition = "2021"
 fastrand = "2"
 serde = {version = "1", features = ["derive"]}
 wit-bindgen-rt = { version = "0.27", features = ["bitflags"] }
-bindings = {path = "../client_bindings"}
-client_utils = { path = "../client_utils", features = ["wit-bindings"] }
+bindings = {git = "https://github.com/Caudiciform-Studios/client_bindings.git"}
+client_utils = { git = "https://github.com/Caudiciform-Studios/client_utils.git", features = ["wit-bindings"] }
 anyhow = "1"
 
 [lib]
