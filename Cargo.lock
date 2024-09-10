@@ -58,7 +58,6 @@ source = "git+https://github.com/Caudiciform-Studios/client_utils.git#0838d67d66
 dependencies = [
  "anyhow",
  "bincode",
- "bindings",
  "client_utils_derive",
  "indexmap",
  "ordered-float",
