@@ -63,7 +63,7 @@ impl State<Broadcast, ExplorableMap> for Memory {
                     self.broadcast.dungeoneer.update_expiry(now + 500);
                 }
             } else {
-                self.broadcast.dungeoneer.set(now, now + 500, actor.id);
+                self.broadcast.dungeoneer.set(actor.id, now, now + 500);
             }
         }
 
