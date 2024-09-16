@@ -134,11 +134,11 @@ impl State<Broadcast, ExplorableMap> for Memory {
 
 
         if is_dungeoneer {
-            highlight_actor(Some((0.4, 0.0, 0.0)));
+            highlight_actor(Some((0.8, 0.0, 0.0)));
         } else if is_dedicated_scorer {
-            highlight_actor(Some((0.0, 0.4, 0.0)));
+            highlight_actor(Some((0.0, 0.8, 0.0)));
         } else if is_flag_guard {
-            highlight_actor(Some((0.0, 0.0, 0.4)));
+            highlight_actor(Some((0.0, 0.0, 0.8)));
         } else if is_stair_guard {
             highlight_actor(Some((0.0, 0.4, 0.8)));
         } else {
